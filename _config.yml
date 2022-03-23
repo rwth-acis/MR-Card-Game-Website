@@ -1,0 +1,62 @@
+# Site
+title:              'MR Card Game'
+bio:                'A Mixed Reality-Based Card Game for Formal and Informal Education.'
+description:        "MR Card Game is an educational, customizable AR (Augmented Reality) tower defense card game application that allows for playful learning by combining quiz questions with engaging real-time strategy gameplay. The goal of the game is to defend your castle against approaching attackers by casting spells, setting traps and building powerful defensive towers to slow down the invaders. In order to gain access to these defenses, players need to answer questions from a chosen field or topic. If answered correctly, players can use varying cards to defeat wave after wave of a wide variety of attackers."
+locale:             en_US
+baseurl: "MR-Card-Game" # the subpath of your site, e.g. /blog
+url: "https://julianstaab.github.io/" # the base hostname & protocol for your site
+
+# Comments
+disqus_shortname:   default
+
+# Social
+analytics-id:       "default"
+github:             https://github.com/rwth-acis/MR-Card-Game
+
+# personal
+location:           Aachen, Germany
+
+# Other
+background_image:   "../../images/bg.png"
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
