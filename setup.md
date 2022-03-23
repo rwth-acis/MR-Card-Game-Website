@@ -16,7 +16,7 @@ sitemap:
 To play the MR Card Game, printing out the AR Image Targets is required. These are physical card that you can find here. Simply download and print out the sheet in this .pdf-file and cut out the individual cards with scissors or a different cutting device.
 
 <div> <ul class="icons alt">
-			<li><a href="https://github.com/JulianStaab/MR-Card-Game/raw/UIRevision/MR%20Card%20Game/Assets/ImageTargetsModified.pdf" class="button icon fa-download">Image Targets</a></li>
+			<li><a href="https://github.com/rwth-acis/MR-Card-Game/raw/main/MR%20Card%20Game/Assets/ImageTargetsModified.pdf" class="button icon fa-download">Image Targets</a></li>
 	  </ul>
 </div>
 
