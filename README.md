@@ -3,7 +3,7 @@
 
 MR Card Game is an educational, customizable AR (Augmented Reality) tower defense card game application that allows for playful learning by combining quiz questions with engaging real-time strategy gameplay. The goal of the game is to defend your castle against approaching attackers by casting spells, setting traps and building powerful defensive towers to slow down the invaders. In order gain access to these defenses, players need to answer questions from a chosen field or topic. If answered correctly, players can use varying cards to defeat wave after wave of a wide variety of attackers.
 
-This is a website for the MR Card Game, containing all play instructions and required materials to use the application. It is based on the Jekyll-theme *Massively*.
+This is a website for the MR Card Game, containing all play instructions and required materials to use the application. It is based on the Jekyll-theme *Massively*. Note: the theme does not compile with higher Ruby version, we recommand to use a older version of Ruby, e.g. 2.5.1.
 
 ## Credits
 ### Original README from Massively

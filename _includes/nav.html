@@ -1,8 +1,8 @@
 <ul class="links">
-  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
-  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/navigation/" | absolute_url }}">Navigation</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/gameplay/" | absolute_url }}">Gameplay</a></li>
-  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/setup/" | absolute_url }}">Setup</a></li>
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/navigation/" | prepend: site.baseurl }}">Navigation</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/gameplay/" | prepend: site.baseurl }}">Gameplay</a></li>
+  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/setup/" | prepend: site.baseurl }}">Setup</a></li>
 </ul>
 
 <ul class="icons">
