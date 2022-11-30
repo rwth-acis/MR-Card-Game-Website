@@ -4,7 +4,7 @@ title: Navigation - MR Card Game
 description: A Mixed Reality-Based Card Game for Formal and Informal Education.
 sitemap:
     priority: 0.7
-    lastmod: 2017-11-02
+    lastmod: 2022-11-29
     changefreq: weekly
 ---
 
@@ -15,12 +15,12 @@ After starting the application, you will be placed in the main menu. There you h
 ### Play Levels
 <div><a class="image main"><img src="https://user-images.githubusercontent.com/44223481/161959259-8bc2b339-32a7-4e35-8b9a-c37406d07861.png" alt="" style="max-width: 100%;"/></a></div>
 
-Clicking `Play Levels` is the standard way to start a game. The next page will show the folder structure of the application where you can select the quiz to use in the game. If everything was set-up properly, you should see the quiz that you downloaded and placed in this folder in the Setup section. If not, make sure all Quiz Setup steps are fulfilled. After selecting a quiz, you will see the quiz name and description and a start button in the form of a triangle. Press it to get to the start screen where you can press `Start` to go start the game. You are also able to permanently delete quizzes by pressing the delete icon and confirm the deletion.
+Clicking `Play Levels` is the standard way to start a game. The next page will show the folder structure of the application where you can select the quiz to answer in the game. If everything was set-up properly, you should see the quiz that you downloaded and placed in this folder in the Setup section. If not, make sure all Quiz Setup steps are fulfilled. After selecting a quiz, you will see the quiz name, its description, and a start button in the form of a triangle on the button right corner. Press it to get to the start screen where you can press `Start` to go start the game. After press the `Start` button, the game will be loaded in few seconds and then your camera will be activated. You are also able to permanently delete quizzes by pressing the delete icon and confirm the deletion.
 
 ### Download Levels
 <div><a class="image main"><img src="https://user-images.githubusercontent.com/44223481/161959222-ac44e4ad-4c82-41af-aac7-5f1ac950183b.PNG" alt="" style="max-width: 100%;"/></a></div>
 
-Clicking `Download Levels` allows users to play the game without creating their own quizzes. The next page will show the pre-built quizzes which can all be downloaded by clicking on them. Clicking one will immediately download it and if you select back at the top and `Play Levels` in the Main Menu, you will see it as a playable quiz.
+Clicking `Download Levels` allows users to play the game without creating their own quizzes. The next page will show the pre-built quizzes which can all be downloaded by clicking on them. Clicking one will immediately download it and if you select back at the top and `Play Levels` in the Main Menu, you will see it as a playable quiz. All quizes shown here are under a link specified by the developers. Currently, these quizes can be found [here](https://github.com/rwth-acis/MR-Card-Game-Quizzes).
 
 ### Gallery
 <div><a class="image main"><img src="https://user-images.githubusercontent.com/19326682/159681999-23585440-de0d-409b-8f6f-f14f236bc208.PNG" alt="" style="max-width: 100%;"/></a></div>
