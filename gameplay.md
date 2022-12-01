@@ -4,7 +4,7 @@ title: How to Play the Game - MR Card Game
 description: A Mixed Reality-Based Card Game for Formal and Informal Education.
 sitemap:
     priority: 1.0
-    lastmod: 2022-11-30
+    lastmod: 2022-12-01
     changefreq: weekly
 ---
 ## How to Play the Game
@@ -64,8 +64,7 @@ Different spells have different effects and also visual effects. For spells that
 <div><a class="image main"><img src="{{ "/images/Meteor.png" | prepend: site.baseurl }}" alt="" style="max-width: 100%;"/></a></div>
 
 ### Answering Questions
-The answering of questions will always be prompted by the player if they want to play a spell, tower or trap card. If so, the question counter will increase by 1 and you will be able to press the new button in the top right corner to answer the question. A random question from the selected quiz will then appear on the lower half of the screen. Questions can either be multiple-choice or input questions. Read the question carefully and if it is a multiple-choice question, select one of the answers and press the `Enter` button. If you accidentally selected a wrong answer, pressing the answer again will unselect it. If it is an input question, click on the input bar and enter your answer using the keyboard. Afterwards, also press `Enter` to submit it. If your answer is correct, the respective effect of the card is resolved as described in the above sections. If not, the card needs to be played again.
+The answering of questions will always be prompted when you want to play a spell, tower or trap card. If so, the question counter which located on the top of the screen will increase by 1 (for some cases may be more than 1) and you will be able to press the `View Qustion` button in the center to answer the question. A random question from the selected quiz will then appear and takes the whole screen space. Questions can either be multiple-choice (MC) or input questions. They can either mit an image or not. Read the question description carefully. For MC questions, you need to choose one correct answer from at most five choices and then click `Enter` to submit. If you accidentally selected a wrong answer, pressing the answer again will unselect it. For input questions, you need to give the correct answer to the input field. Afterwards, also press `Enter` to submit it. If your answer is correct, the respective effect of the card is resolved as described in the above sections. If not, the card needs to be played again and you need to answer another question. In this case, the correct answer will also be given. When you are answering questions, the game is paused, so don't worry, you have enough time. Examples of different question types are illustrated below.
 
-<div><a class="image main"><img src="{{ "/images/MRCG_Screenshot5.png" | prepend: site.baseurl }}" alt="" style="max-width: 100%;"/></a></div>
+<div><a class="image main"><img src="{{ "/images/Question_Types.png" | prepend: site.baseurl }}" alt="" style="max-width: 100%;"/></a></div>
 
-<div><a class="image main"><img src="{{ "/images/MRCG_Screenshot6.png" | prepend: site.baseurl }}" alt="" style="max-width: 100%;"/></a></div>
