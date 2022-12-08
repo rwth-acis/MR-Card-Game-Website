@@ -45,4 +45,4 @@ To add new questions to an existing quiz, just select a folder using the `Browse
 
 ### Upload Quiz
 
-The upload function under the `Browse Directories` on the home menu is not applicable yet, so you must manually do that. The questions are saved in the folder named as the quiz's name. Their names are `QuestionXXX.json` and their images are named as `QuestionXXX_image.jpg/png`. You just need to copy the whole directory under the corresponding folder introduced in the `Setup` page. After that, enjoy your game!
+The upload function under the `Browse Directories` on the home menu is not applicable yet, so you must manually do that. The questions are saved in the folder named as the quiz's name (see the *Create New Quiz* section if you don't know where to find it). Their names are `QuestionXXX.json` and their images are named as `QuestionXXX_image.jpg/png`. You have two ways to make your quiz available for playing: you can either copy the whole directory under the corresponding folder introduced in the `Setup` page, or upload it to a remote server and download it in the game by specifying the corresponding URL. After that, enjoy your game!
